@@ -49,6 +49,16 @@ Spring Boot REST API
                        v
                      FFmpeg
 ```
+## Design Decisions
+
+- **Spring Boot** – Used to build REST APIs and backend services.
+- **JWT** – Used for stateless authentication and authorization.
+- **PostgreSQL** – Used to store users and video metadata.
+- **MinIO** – Used to store original and transcode video files.
+- **RabbitMQ** – Used for asynchronous video transcoding.
+- **FFmpeg** – Used to transcode uploaded videos.
+- **Chunked Upload** – Used to support reliable upload of larger video files.
+- **Swagger/OpenAPI** – Used to document and test the APIs.
 
 ## Setup
 
