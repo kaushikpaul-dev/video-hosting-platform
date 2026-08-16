@@ -1,4 +1,4 @@
-package com.kaushik.smartdocumentverification;
+package com.kaushik.videohosting;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
